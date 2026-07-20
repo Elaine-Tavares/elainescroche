@@ -1,11 +1,11 @@
-🧶 Elaine's Crochê
+## Elaine's Crochê
 📌 Sobre o Projeto
 
 Este é um projeto de site para divulgação e venda de produtos artesanais em crochê. A proposta é criar uma experiência simples, bonita e funcional, permitindo que clientes visualizem produtos e realizem pedidos diretamente via WhatsApp.
 
 O projeto está sendo desenvolvido com foco em evolução contínua, começando por um MVP (Produto Mínimo Viável) e expandindo gradualmente.
 
-🎯 Objetivos
+🎯 Objetivos: 
 - Exibir produtos de crochê de forma atrativa
 - Facilitar pedidos via WhatsApp
 - Criar presença digital para a marca
@@ -19,20 +19,6 @@ O projeto está sendo desenvolvido com foco em evolução contínua, começando 
 
 - Backend
     PHP (API simples)
-
-🧱 Estrutura do Projeto
-src/
-  components/
-    CardProduto.jsx
-    Navbar.jsx
-    Footer.jsx
-
-  pages/
-    Home.jsx
-    Produtos.jsx
-    ProdutoDetalhe.jsx
-    Sobre.jsx
-    Contato.jsx
 
 🛍️ Funcionalidades
 - Listagem de produtos
@@ -63,30 +49,28 @@ O design segue um estilo:
 
 📦 Como rodar o projeto
 🔧 Frontend (React)
-# instalar dependências
-npm install
-
-# rodar projeto
-npm run dev
+- npm install (instalar dependências)
+- npm run dev (rodar projeto)
 
 🔧 Backend (PHP)
-Coloque os arquivos PHP em um servidor local (ex: XAMPP, Laragon ou WAMP)
+- Coloque os arquivos PHP em um servidor local (ex: XAMPP, Laragon ou WAMP)
 
 Exemplo de endpoint:
 http://localhost/api/produtos.php
-📸 Preview
-(adicione aqui prints do projeto depois)
 
-🤝 Contribuição
+📸 Preview:
+(adicionar aqui prints do projeto depois)
+
+🤝 Contribuição: 
 Este é um projeto em desenvolvimento contínuo. Sugestões e melhorias são bem-vindas.
 
-📄 Licença
+📄 Licença: 
 Este projeto é de uso pessoal e pode ser expandido futuramente para fins comerciais.
 
-✍️ Autor
+✍️ Autor: 
 Elaine Tavares
 
-💡 Observação
+💡 Observação: 
 Este projeto também servirá como base para:
 - aprendizado prático de React + PHP
 - construção de portfólio
