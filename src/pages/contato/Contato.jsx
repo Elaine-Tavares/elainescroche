@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Contato() {
   return (
-    <div>Contato</div>
+    <section className="container">
+      <h1>Contato</h1>
+    </section>
   )
 }

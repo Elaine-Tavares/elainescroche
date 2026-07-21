@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function ProdutoDetalhes() {
   return (
-    <div>ProdutoDetalhes</div>
+    <section className="container">
+      <h1>Detalhes do Produto</h1>
+    </section>
   )
 }

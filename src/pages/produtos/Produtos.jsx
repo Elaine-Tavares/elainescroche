@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Produtos() {
   return (
-    <div>Produtos</div>
+    <section className="container">
+      <h1>Produtos</h1>
+    </section>
   )
 }

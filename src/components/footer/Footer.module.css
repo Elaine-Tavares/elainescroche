@@ -1,0 +1,93 @@
+.footer {
+  /* box-shadow: 0 -4px 14px 0px var(--text); */
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 16px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.main_session_social{
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main_session a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkedin{
+  font-size: 2.5rem;
+  color: #0A66C2;
+  transition: all 0.4s ease;
+}
+
+.linkedin:hover{
+  box-shadow: 4px 4px 14px 0px #0A66C2;
+  transform: translateY(-7px);
+}
+
+.instagram{
+  font-size: 2.5rem;
+  color: #E1306C;
+  transition: all 0.4s ease;
+}
+
+.instagram:hover{
+  box-shadow: 4px 4px 14px 0px #E1306C;
+  transform: translateY(-7px);
+}
+
+.github{
+  font-size: 2.5rem;
+  color: #000;
+  transition: all 0.4s ease;
+  border-radius: 50%;
+}
+.github:hover{
+  box-shadow: 4px 4px 14px 0px #000;
+  transform: translateY(-7px);
+}
+
+.whats{
+  font-size: 2.5rem;
+  color: #25D366;
+  transition: all 0.4s ease;
+}
+
+.whats:hover{
+  box-shadow: 4px 4px 14px 0px #25D366;
+  transform: translateY(-7px);
+}
+
+
+/*******************************************************************************/
+@media (min-width: 768px) {
+  .footer {
+    padding: 30px 00px;
+  }
+
+  .links {
+    gap: 40px;
+  }
+}

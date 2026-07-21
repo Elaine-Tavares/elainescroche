@@ -1,27 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Edu VIC WA NT Hand", cursive;
 }
 
 :root {
-  --text:#000;
+  --primary-color: purple;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+.whats{
+  font-size: 4rem;
+  color: #25D366;
+  position: fixed;
+  animation: floatWhats 2s ease-in-out infinite;
+  bottom: 30%;
+  right: 15px;
+  transition: all 0.4s ease; 
+}
+
+.whats:hover{
+  box-shadow: 4px 4px 14px 0px #25D366;
+  transform: translateY(-7px);
+}
+
+@keyframes floatWhats {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
 /*Base Mobile: 320–767px*/
-h1 { font-size: 1.8rem; }
-h2 { font-size: 1.6rem; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.4rem; }
 p  { font-size: 1rem; }
+a  { font-size: 1rem; }
 
 /* Tablets */
 @media (min-width: 768px) {
-    h1 { font-size: 2.4rem; }
-    h2 { font-size: 1.8rem; }
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.6rem; }
     p  { font-size: 1.05rem; }
+    a  { font-size: 1.05rem; }
 }
 
 
@@ -30,6 +64,7 @@ p  { font-size: 1rem; }
     h1 { font-size: 3rem; }
     h2 { font-size: 2.2rem; }
     p  { font-size: 1.1rem; }
+    a  { font-size: 1.1rem; }
 }
 
 /* Desktop */
@@ -37,6 +72,7 @@ p  { font-size: 1rem; }
     h1 { font-size: 3.4rem; }
     h2 { font-size: 2.4rem; }
     p  { font-size: 1.15rem; }
+    a  { font-size: 1.15rem; }
 }
 
 /* Telas grandes */
@@ -44,8 +80,17 @@ p  { font-size: 1rem; }
     h1 { font-size: 3.8rem; }
     h2 { font-size: 2.6rem; }
     p  { font-size: 1.2rem; }
+    a  { font-size: 1.2rem; }
 }
 
 .container{
-  padding: 100px 1.2rem;
+  padding: 120px 1.2rem 50px 1.2rem;
+  min-height: 30vh;
 }
+
+@media (min-width: 1024px) {
+    .container{
+      padding: 150px 1.2rem;    
+    }
+}
+

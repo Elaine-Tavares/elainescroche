@@ -5,6 +5,8 @@ import Sobre from './pages/sobre/Sobre'
 import Contato from './pages/contato/Contato'
 import './App.css' 
 import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
+import { FaWhatsappSquare } from "react-icons/fa";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Route path='/about' element={<Sobre/>}/>
           <Route path='/contact' element={<Contato/>}/>
         </Routes>
+      <Footer/>
+         <a href="https://wa.link/307ehj" target='_blank' rel="noopener noreferrer"><FaWhatsappSquare className={"whats"}/></a>
     </BrowserRouter>
   )
 }

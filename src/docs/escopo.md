@@ -1,4 +1,5 @@
 🧶 ESCOPO DO PROJETO — Elaine's Crochê
+
 📌 1. Visão Geral
 
 Este projeto tem como objetivo o desenvolvimento de um site para divulgação e venda de produtos artesanais em crochê, com foco inicial em um modelo simples (MVP), permitindo:
@@ -7,30 +8,37 @@ Exibição de produtos
 Contato direto via WhatsApp
 Apresentação da marca pessoal
 Base para futura expansão (pagamentos online, área de membros, etc.)
+
 🎯 2. Objetivos do Projeto
-Objetivo Principal
+
+Objetivo Principal:
 
 Criar um site funcional, responsivo e visualmente atraente para apresentar e vender produtos de crochê.
 
-Objetivos Secundários
-Construir presença digital
-Validar produtos no mercado
-Facilitar pedidos diretos
-Preparar estrutura para crescimento
+Objetivos Secundários:
+
+- Construir presença digital
+- Validar produtos no mercado
+- Facilitar pedidos diretos
+- Preparar estrutura para crescimento
+
 👥 3. Público-Alvo
-Pessoas interessadas em decoração artesanal
-Público feminino (principalmente)
-Compradores de presentes personalizados
-Amantes de produtos feitos à mão
+
+- Pessoas interessadas em decoração artesanal
+- Público feminino (principalmente)
+- Compradores de presentes personalizados
+- Amantes de produtos feitos à mão
+
 🧱 4. Estrutura do Site
 
 O site será composto pelas seguintes páginas:
 
 🏠 Home
-Banner principal (imagem + frase)
-Destaque de produtos
-Apresentação breve da marca
-Botão de contato (WhatsApp)
+- Banner principal (imagem + frase)
+- Destaque de produtos
+- Apresentação breve da marca
+- Botão de contato (WhatsApp)
+
 🛍️ Produtos
 Listagem de produtos em formato de grade
 Cada produto exibirá:

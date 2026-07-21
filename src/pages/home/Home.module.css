@@ -1,0 +1,329 @@
+.container_home{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  width: 100%;
+}
+
+.container_home_text{
+  /* border: 1px solid blue; */
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_home_text h1{
+  text-align: center;  
+}
+
+.container_home_text span{
+  color: var(--primary-color);
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-align: end;
+}
+
+.container_home_text p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container_home_image{
+  /* border: 1px solid red; */
+  width: 350px;
+}
+
+.container_home_image img{
+  width: 100%;
+  box-shadow: 0px 0px 15px var(--primary-color);
+  border-radius: 12px;
+}
+
+.actions_home{
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions_home button{
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.actions_home button:hover{
+  box-shadow: 0px 0px 15px var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);  
+}
+
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* LISTA FLEX */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px var(--primary-color);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* IMAGEM */
+.imageWrapper {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* INFO */
+.info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.actions_produto{
+  display: flex;
+  gap: 30px;
+}
+
+/* BOTÃO */
+.btn_ver_produto, .btn_ver_colecao{
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.btn_ver_produto:hover,
+.btn_ver_colecao:hover {
+  box-shadow: 0px 0px 15px var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);  
+}
+
+/*Section Apresentação*/
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+.content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* BOTÃO */
+.button {
+  align-self: center;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+/* IMAGEM */
+.imageWrapper {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.linha_de_separacao{
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-block: 4rem;
+  opacity: 0.2;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .content {
+    width: 50%;
+    text-align: left;
+  }
+
+  .button {
+    align-self: flex-start;
+  }
+
+  .imageWrapper {
+    width: 50%;
+    height: 300px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .section {
+    padding: 3rem 2rem;
+  }
+
+
+  .imageWrapper {
+    height: 350px;
+  }
+}
+/*FIM section apresentação*/
+
+
+/* Tablets */
+@media (min-width: 768px) {
+  .container_home_text {
+    width: 750px;  
+    align-items: center;
+  }
+
+  .container_home_text span{
+    margin-top: 5px;
+  }
+
+  .container_home_image{
+    width: 750px; 
+  }
+
+  .container_home_image img{
+    object-fit: cover;
+    object-position: top;
+    height: 280px;
+  }
+
+  .actions_home{
+    /* border: 2px solid red; */
+    gap: 50px;
+  }
+
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+/* Laptops pequenos */
+@media (min-width: 1024px) {
+  .container_home{
+    gap: 40px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+ .container_home_text {
+    /* border: 1px solid blue; */
+    width: 600px;    
+    height: 400px;
+  }
+
+  .container_home_text h1 {
+    font-size: 2.5rem;
+  }
+
+  .container_home_text span {
+    /* border: 1px solid black; */
+    text-align: end; 
+    margin-right: 80px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .actions_home{
+    margin-top: 150px;
+  }
+
+  .container_home_image{
+    /* border: 1px solid red; */
+    width: 600px;   
+  }
+
+  .container_home_image img{
+     height: 400px;
+  }
+
+  .card {
+    width: 30%;
+  }
+  
+}
